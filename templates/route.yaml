@@ -2,7 +2,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: redis-route
-  namespace: 25996-redis
+  namespace: 25695-redis
 spec:
   host: redis.yourdomain.com
   to:

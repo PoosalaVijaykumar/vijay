@@ -2,11 +2,11 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: redis-rolebinding
-  namespace: 25996-redis
+  namespace: 25695-redis
 subjects:
   - kind: ServiceAccount
     name: redis-sa
-    namespace: 25996-redis
+    namespace: 25695-redis
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
