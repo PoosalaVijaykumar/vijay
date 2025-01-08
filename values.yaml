@@ -1,6 +1,6 @@
 appName: redis:v1
 
-namespace: 25996-redis
+namespace: 25695-redis
 
 replicaCount: 1
 
