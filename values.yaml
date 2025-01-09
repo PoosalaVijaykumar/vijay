@@ -1,4 +1,4 @@
-appName: redis:v1
+appName: redis
 
 namespace: 25695-redis
 
