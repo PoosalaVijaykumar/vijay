@@ -14,8 +14,9 @@ service:
   port: 6379
 
 resources: {}
+
 configmap:
   name: redis-configmap
   data:
-    maxmemory-policy: "allkeys-lru"
+    maxmemory_policy: "allkeys-lru"
     maxmemory: "2mb"
